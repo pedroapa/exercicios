@@ -18,34 +18,10 @@
             $maior = -1;
             $menor = 9999;
 
-            echo "VALORES INSERIDOS <br>$numero1 | $numero2 | $numero3 | $numero4 | $numero5 |<br>";
+            echo "VALORES INSERIDOS <br>$numero1 | $numero2 | $numero3 | $numero4 | $numero5 |<br><br>";
 
-            #vou tentar fazer com a mesma lógica que usamos para fazer com laço de repetição
+            # Logica ligada Maior
            
-            #Raciocinio para adicionar o maior $numero1, ele precisa ser maior que todo mundo
-            /*
-            if ( ($numero1 > $numero2) && ($numero1 > $numero2) && ($numero1 > $numero3) && ($numero2 > $numero4) && ($numero1 > $numero5) ) {
-                $maior = $numero1;
-            } #se num1 não for maior, então nas proximas comparações eu posso excluir ele
-            else {
-                if ( ($numero2 > $numero3) && ($numero2 > $numero4) && ($numero2 > $numero5) ) {
-                    $maior = $numero2;
-                } #essa ideia por adiante
-                else {
-                    if ( ($numero3 > $numero4) && ($numero3 > $numero5) ) {
-                        $maior = $numero3;
-                    }
-                    else {
-                        if ( ($numero4 > $numero5) ) {
-                            $maior = $numero4;
-                        }
-                        else {
-                            $maior = $numero5;
-                        }
-                    }
-                }
-            } */
-
             if ( ($numero1 > $numero2) && ($numero1 > $numero2) && ($numero1 > $numero3) && ($numero2 > $numero4) && ($numero1 > $numero5) ) {
                 $maior = $numero1;
             }
@@ -61,9 +37,26 @@
             else {
                 $maior = $numero5;
             }
-            
 
-            echo "O maior número é $maior <br>";
+            # Encontrar o menor
+
+            if ( ($numero1 < $numero2) && ($numero1 < $numero2) && ($numero1 < $numero3) && ($numero2 < $numero4) && ($numero1 < $numero5) ) {
+                $menor = $numero1;
+            }
+            elseif ( ($numero2 < $numero3) && ($numero2 < $numero4) && ($numero2 < $numero5) ) {
+                $menor = $numero2;
+            }
+            elseif ( ($numero3 < $numero4) && ($numero3 < $numero5) ) {
+                $menor = $numero3;
+            }
+            elseif ( ($numero4 < $numero5) ) {
+                $menor = $numero4;
+            }
+            else {
+                $menor = $numero5;
+            }
+            
+            echo "O maior número é $maior <br>E o menor número é $menor<br>";
         ?>
         <a href="cinco-valores.html" target="_self" rel="prev">Voltar</a>
     </div>
