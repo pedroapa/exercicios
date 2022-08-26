@@ -23,6 +23,7 @@
             #vou tentar fazer com a mesma lógica que usamos para fazer com laço de repetição
            
             #Raciocinio para adicionar o maior $numero1, ele precisa ser maior que todo mundo
+            /*
             if ( ($numero1 > $numero2) && ($numero1 > $numero2) && ($numero1 > $numero3) && ($numero2 > $numero4) && ($numero1 > $numero5) ) {
                 $maior = $numero1;
             } #se num1 não for maior, então nas proximas comparações eu posso excluir ele
@@ -43,27 +44,24 @@
                         }
                     }
                 }
+            } */
+
+            if ( ($numero1 > $numero2) && ($numero1 > $numero2) && ($numero1 > $numero3) && ($numero2 > $numero4) && ($numero1 > $numero5) ) {
+                $maior = $numero1;
             }
-            
-
-             /*
-            $maior = $numero1;
-
-            if ($numero2 > $maior) {
+            elseif ( ($numero2 > $numero3) && ($numero2 > $numero4) && ($numero2 > $numero5) ) {
                 $maior = $numero2;
             }
-
-            if ($numero3 > $maior) {
+            elseif ( ($numero3 > $numero4) && ($numero3 > $numero5) ) {
                 $maior = $numero3;
             }
-
-            if ($numero4 > $maior) {
+            elseif ( ($numero4 > $numero5) ) {
                 $maior = $numero4;
             }
-
-            if ($numero5 > $maior) {
+            else {
                 $maior = $numero5;
-            }   */
+            }
+            
 
             echo "O maior número é $maior <br>";
         ?>
