@@ -21,26 +21,32 @@
             echo "VALORES INSERIDOS <br>$numero1 | $numero2 | $numero3 | $numero4 | $numero5 |<br>";
 
             #vou tentar fazer com a mesma lógica que usamos para fazer com laço de repetição
-            /*
-            $maior = $numero1;
-
-            if ($numero2 > $maior) {
-                $maior = $numero2;
-            }
+           
+            #Raciocinio para adicionar o maior $numero1, ele precisa ser maior que todo mundo
+            if ( ($numero1 > $numero2) && ($numero1 > $numero2) && ($numero1 > $numero3) && ($numero2 > $numero4) && ($numero1 > $numero5) ) {
+                $maior = $numero1;
+            } #se num1 não for maior, então nas proximas comparações eu posso excluir ele
             else {
-                if ($numero3 > $maior) {
-                    $maior = $numero3;
-                }
+                if ( ($numero2 > $numero3) && ($numero2 > $numero4) && ($numero2 > $numero5) ) {
+                    $maior = $numero2;
+                } #essa ideia por adiante
                 else {
-                    if ($numero4 > $maior) {
-                        $maior = $numero4;
+                    if ( ($numero3 > $numero4) && ($numero3 > $numero5) ) {
+                        $maior = $numero3;
                     }
                     else {
-                        $maior = $numero5;
+                        if ( ($numero4 > $numero5) ) {
+                            $maior = $numero4;
+                        }
+                        else {
+                            $maior = $numero5;
+                        }
                     }
                 }
-            } */
+            }
+            
 
+             /*
             $maior = $numero1;
 
             if ($numero2 > $maior) {
@@ -57,10 +63,11 @@
 
             if ($numero5 > $maior) {
                 $maior = $numero5;
-            }   
+            }   */
 
             echo "O maior número é $maior <br>";
         ?>
+        <a href="cinco-valores.html" target="_self" rel="prev">Voltar</a>
     </div>
     
 </body>
