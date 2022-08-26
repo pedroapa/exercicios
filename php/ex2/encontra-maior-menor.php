@@ -21,7 +21,9 @@
             echo "VALORES INSERIDOS <br>$numero1 | $numero2 | $numero3 | $numero4 | $numero5 |<br>";
 
             #vou tentar fazer com a mesma lógica que usamos para fazer com laço de repetição
+            /*
             $maior = $numero1;
+
             if ($numero2 > $maior) {
                 $maior = $numero2;
             }
@@ -37,7 +39,25 @@
                         $maior = $numero5;
                     }
                 }
+            } */
+
+            $maior = $numero1;
+
+            if ($numero2 > $maior) {
+                $maior = $numero2;
             }
+
+            if ($numero3 > $maior) {
+                $maior = $numero3;
+            }
+
+            if ($numero4 > $maior) {
+                $maior = $numero4;
+            }
+
+            if ($numero5 > $maior) {
+                $maior = $numero5;
+            }   
 
             echo "O maior número é $maior <br>";
         ?>
