@@ -1,0 +1,138 @@
+ace.define('ace/theme/urionlinejudge',['require','exports','module','ace/lib/dom'],function(require,exports,module){exports.isDark=false;exports.cssClass="ace-urionlinejudge";exports.cssText="\
+.ace-urionlinejudge {\
+  font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;\
+  font-size: 12px;\
+  line-height: 16px;\
+}\
+.ace-urionlinejudge .ace_editor {\
+  border: 2px solid rgb(159, 159, 159);\
+}\
+\
+.ace-urionlinejudge .ace_editor.ace_focus {\
+  border: 2px solid #327fbd;\
+}\
+\
+.ace-urionlinejudge .ace_gutter {\
+  background: #efefef;\
+  border-right:#bbb solid 1px;\
+  color: #333;\
+}\
+\
+.ace-urionlinejudge .ace_print_margin {\
+  width: 1px;\
+  background: #e8e8e8;\
+}\
+\
+.ace-urionlinejudge .ace_scroller {\
+  background-color: #FFFFFF;\
+}\
+\
+.ace-urionlinejudge .ace_text-layer {\
+  cursor: text;\
+  color: #4D4D4C;\
+}\
+\
+.ace-urionlinejudge .ace_cursor {\
+  border-left: 2px solid #AEAFAD;\
+}\
+\
+.ace-urionlinejudge .ace_cursor.ace_overwrite {\
+  border-left: 0px;\
+  border-bottom: 1px solid #AEAFAD;\
+}\
+ \
+.ace-urionlinejudge .ace_marker-layer .ace_selection {\
+  background: #D6D6D6;\
+}\
+\
+.ace-urionlinejudge .ace_marker-layer .ace_step {\
+  background: rgb(198, 219, 174);\
+}\
+\
+.ace-urionlinejudge .ace_marker-layer .ace_bracket {\
+  margin: -1px 0 0 -1px;\
+  border: 1px solid #D1D1D1;\
+}\
+\
+.ace-urionlinejudge .ace_marker-layer .ace_active_line {\
+  background: #EFEFEF;\
+}\
+\
+.ace-urionlinejudge .ace_marker-layer .ace_selected_word {\
+  border: 1px solid #D6D6D6;\
+}\
+       \
+.ace-urionlinejudge .ace_invisible {\
+  color: #D1D1D1;\
+}\
+\
+.ace-urionlinejudge .ace_keyword {\
+  color:#8959A8;\
+}\
+\
+.ace-urionlinejudge .ace_keyword.ace_operator {\
+  color:#3E999F;\
+}\
+\
+.ace-urionlinejudge .ace_constant.ace_language {\
+  color:#F5871F;\
+}\
+\
+.ace-urionlinejudge .ace_constant.ace_numeric {\
+  color:#F5871F;\
+}\
+\
+.ace-urionlinejudge .ace_invalid {\
+  color:#FFFFFF;\
+background-color:#C82829;\
+}\
+\
+.ace-urionlinejudge .ace_invalid.ace_deprecated {\
+  color:#FFFFFF;\
+background-color:#8959A8;\
+}\
+\
+.ace-urionlinejudge .ace_fold {\
+    background-color: #4271AE;\
+    border-color: #4D4D4C;\
+}\
+\
+.ace-urionlinejudge .ace_support.ace_function {\
+  color:#4271AE;\
+}\
+\
+.ace-urionlinejudge .ace_string {\
+  color:#718C00;\
+}\
+\
+.ace-urionlinejudge .ace_string.ace_regexp {\
+  color:#C82829;\
+}\
+\
+.ace-urionlinejudge .ace_comment {\
+  color:#8E908C;\
+}\
+\
+.ace-urionlinejudge .ace_variable {\
+  color:#C82829;\
+}\
+\
+.ace-urionlinejudge .ace_meta.ace_tag {\
+  color:#C82829;\
+}\
+\
+.ace-urionlinejudge .ace_entity.ace_other.ace_attribute-name {\
+  color:#C82829;\
+}\
+\
+.ace-urionlinejudge .ace_entity.ace_name.ace_function {\
+  color:#4271AE;\
+}\
+\
+.ace-urionlinejudge .ace_markup.ace_underline {\
+    text-decoration:underline;\
+}\
+\
+.ace-urionlinejudge .ace_markup.ace_heading {\
+  color:#718C00;\
+}";var dom=require("../lib/dom");dom.importCssString(exports.cssText,exports.cssClass);});
