@@ -1,0 +1,41 @@
+site para usar de apoio 
+<https://exame.com/casual/25-anos-da-morte-de-renato-russo-relembre-carreira-e-vida-do-cantor/>
+
+frases para colocar no inicio 
+
+É preciso amar as pessoas como se não houvesse amanhã...
+
+E os dois comeram juntos e também brigaram juntos muitas vezes depois. E todo mundo diz que ele completa ela e vice-versa, que nem feijão com arroz.
+
+Nunca, nunca, nunca deixe alguém te dizer que aquilo que você acredita é babaquice e que de repente o teu sonho não vai dar certo...
+
+Tenho saudade de tudo que ainda não vi.
+
+O bom do rock é que não se aprende na escola...
+
+Nem desistir, nem tentar. Agora tanto faz.
+
+Aonde está você agora além de aqui dentro de mim?
+
+
+essa frase 
+(Nunca, nunca, nunca deixe alguém te dizer que aquilo que você acredita é babaquice e que de repente o teu sonho não vai dar certo...
+)
+
+body
+main
+section
+article
+aside
+article
+
+file:///C:/xampp/htdocs/pratica/exercicios/html-css/pag-homenagem/Steve-Jobs/index.html
+
+site wiki
+http://renatorusso.com.br/bio/
+
+vou criar o layout primeiro, depois escolher as fontes. Seguindo da coleta das informações
+
+quero fazer igual, depois eu tento criar de outras formas
+
+pera ai, o header não fica dentro do main
