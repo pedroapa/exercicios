@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+    /*FONTES*/
+/*Caveat
+font-family: 'Caveat', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/*fonte Rodoto
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
