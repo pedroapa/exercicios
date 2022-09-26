@@ -3,23 +3,23 @@ site para usar de apoio
 
 frases para colocar no inicio 
 
-É preciso amar as pessoas como se não houvesse amanhã...
+ï¿½ preciso amar as pessoas como se nï¿½o houvesse amanhï¿½...
 
-E os dois comeram juntos e também brigaram juntos muitas vezes depois. E todo mundo diz que ele completa ela e vice-versa, que nem feijão com arroz.
+E os dois comeram juntos e tambï¿½m brigaram juntos muitas vezes depois. E todo mundo diz que ele completa ela e vice-versa, que nem feijï¿½o com arroz.
 
-Nunca, nunca, nunca deixe alguém te dizer que aquilo que você acredita é babaquice e que de repente o teu sonho não vai dar certo...
+Nunca, nunca, nunca deixe alguï¿½m te dizer que aquilo que vocï¿½ acredita ï¿½ babaquice e que de repente o teu sonho nï¿½o vai dar certo...
 
-Tenho saudade de tudo que ainda não vi.
+Tenho saudade de tudo que ainda nï¿½o vi.
 
-O bom do rock é que não se aprende na escola...
+O bom do rock ï¿½ que nï¿½o se aprende na escola...
 
 Nem desistir, nem tentar. Agora tanto faz.
 
-Aonde está você agora além de aqui dentro de mim?
+Aonde estï¿½ vocï¿½ agora alï¿½m de aqui dentro de mim?
 
 
 essa frase 
-(Nunca, nunca, nunca deixe alguém te dizer que aquilo que você acredita é babaquice e que de repente o teu sonho não vai dar certo...
+(Nunca, nunca, nunca deixe alguï¿½m te dizer que aquilo que vocï¿½ acredita ï¿½ babaquice e que de repente o teu sonho nï¿½o vai dar certo...
 )
 
 body
@@ -34,14 +34,17 @@ file:///C:/xampp/htdocs/pratica/exercicios/html-css/pag-homenagem/Steve-Jobs/ind
 site wiki
 http://renatorusso.com.br/bio/
 
-vou criar o layout primeiro, depois escolher as fontes. Seguindo da coleta das informações
+vou criar o layout primeiro, depois escolher as fontes. Seguindo da coleta das informaï¿½ï¿½es
 
 quero fazer igual, depois eu tento criar de outras formas
 
-pera ai, o header não fica dentro do main
+pera ai, o header nï¿½o fica dentro do main
 
 esqueci de ir salvando para mostrar os problemas encontrados e resolvidos
 
 voltando para a pagina de homenagem para o Renato russo, preciso decidir a paleta de cores e as fontes
 
 fonte cursiva
+
+como estou vendo, nÃ£o estou conseguindo deixar o aside no canto, vou mudar, vou deixar um em cima do outro
+

@@ -9,3 +9,64 @@ font-family: 'Caveat', cursive;
 /*fonte Rodoto
 font-family: 'Roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    /*Fontes*/
+    --fonte-titulo: 'Caveat', cursive;
+    --fonte-texto: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-texto);
+    font-size: .8em;
+    padding: 150px 100px 1px 100px;
+}
+
+header {
+    text-align: center;
+    height: 250px;
+    min-width: 550px;
+    max-width: 700px;
+    margin: auto;
+    font-family: var(--fonte-titulo);   
+    font-size: 1.5em;
+}
+
+
+article#principal {
+    display: inline-block;
+    min-width: 500px;
+    max-width: 700px; 
+    margin: auto;
+    
+}
+
+article#principal > h2 {
+    text-align: center;
+    font-size: 3.5em;
+    color: rgba(119, 136, 153, 0.534);
+    padding-bottom: 25px;
+}
+
+article#principal > strong {
+    display: ;
+    width: 20px;
+    height: 25px;
+}
+
+article#principal > p {
+    display: inline;
+    margin: 5px;
+    
+}
+
+aside {
+    display: inline-block;
+    width: 300px;
+    margin-right: 0px;
+}
