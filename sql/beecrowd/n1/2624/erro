@@ -1,0 +1,2 @@
+Pediu para contar as cidades dos clientes que estão cadastradas que não se repita. 
+O problema é que o distinct não funciona junto com o count(), o segundo simplesmente ignora o outro. Talvez tenha que fazer algo dentro do where que faça diferenciar os questionamentos antigos dos novos.
