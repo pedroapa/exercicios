@@ -32,4 +32,4 @@ select * from customers;
 
 /*Perguntando para o banco*/
 /*Para fazer isso você deve exibir a quantidade de cidades distintas da tabela clientes.*/
-select distinct count(city)  from customers;
+select distinct count(*)  from customers;
