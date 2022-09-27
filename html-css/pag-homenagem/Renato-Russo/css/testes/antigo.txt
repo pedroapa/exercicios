@@ -53,20 +53,17 @@ article#principal > h2 {
     padding-bottom: 25px;
 }
 
+article#principal strong {
+    /*display: block; */
+    /*width: 130px;
+    height: 40px; */
+}
+
 article#principal > p {
     display: inline-block;
     margin: 5px;
     
 }
-
-article#principal > p > strong {
-    display: block; 
-    width: 130px;
-    height: 35px; 
-    text-align: center;
-}
-
-
 
 aside {
     display: inline-block;
