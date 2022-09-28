@@ -19,26 +19,33 @@ font-family: 'Roboto', sans-serif; */
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 12px; 
 }
 
 body {
     font-family: var(--fonte-texto);
-    font-size: .8em;
-    padding: 150px 100px 1px 100px;
+    font-size: .8em; 
+    padding: 150px 100px;
 }
 
-header {
+main {
+    min-width: 500px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header, footer {
     text-align: center;
-    height: 250px;
+    height: 180px;
     min-width: 550px;
-    max-width: 700px;
+    max-width: 1090px;
     margin: auto;
     font-family: var(--fonte-titulo);   
-    font-size: 1.5em;
+    font-size: 2.5em; 
 }
 
 
-article#principal {
+main > article {
     display: inline-block;
     min-width: 500px;
     max-width: 700px; 
@@ -46,30 +53,47 @@ article#principal {
     
 }
 
-article#principal > h2 {
+main > article > h2 {
     text-align: center;
-    font-size: 3.5em;
-    color: rgba(119, 136, 153, 0.534);
+    /*font-size: 3.5em; */
+    color: rgba(119, 136, 153, 0.37);
     padding-bottom: 25px;
 }
 
-article#principal > p {
+
+main > article > p {
     display: inline-block;
     margin: 5px;
-    
+    text-align: justify;
 }
 
-article#principal > p > strong {
+main strong {
     display: block; 
     width: 130px;
-    height: 35px; 
+    height: 25px; 
     text-align: center;
+    padding: 5px;
 }
-
-
 
 aside {
     display: inline-block;
     width: 300px;
-    margin-right: 0px;
+    margin-left: 50px;
+}
+
+aside > h2 {
+    text-align: center;
+    /*font-size: 2em; */
+    padding: 5px;
+}
+
+footer {
+    background-color: rgba(211, 211, 211, 0.432);
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+footer > strong {
+    /*font-size: 2.6em;*/
 }
