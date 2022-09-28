@@ -1,0 +1,23 @@
+1-
+select PrimeiroNome, SegundoNome from funcionarios
+order by SegundoNome;
+
+2-
+select * from funcionarios
+order by SegundoNome;
+
+3-
+select PrimeiroNome from funcionarios
+where salario > '1000'
+order by PrimeiroNome, SegundoNome, UltimoNome;
+
+4- 
+select DataNasci, PrimeiroNome from funcionarios
+order by DataNasci desc;
+
+5-
+
+6-
+select sum(salario) from funcionarios;
+
+7-

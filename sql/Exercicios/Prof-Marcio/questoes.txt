@@ -1,0 +1,72 @@
+Exercício 18-  Liste o nome e o departamento de 
+todos os funcionários que ganham 
+mais do que algum gerente
+
+Exercício 17- Liste os nomes dos funcionários que 
+trabalham no departamento Pessoal
+
+Exercício 16- Liste os nomes dos funcionários que 
+moram em Recife e que exerçam a 
+função de Telefonista
+Exercício 15- Liste o nome do departamento e do 
+funcionário ordenados por 
+departamento e funcionário
+
+Exercício 14- Liste o nome completo de todos os 
+funcionários que não tenham segundo 
+nome
+
+Exercício 13- Liste o menor salário pago pela 
+empresa em cada departamento
+
+Exercício 12- Liste o salário médio pago pela 
+empresa
+
+Exercício 11- Liste a quantidade de funcionários 
+desta empresa
+
+Exercício 10- Liste os departamentos dos 
+funcionários que têm a função de 
+supervisor
+
+Exercício 9- Liste o valor da folha de pagamento de 
+cada departamento (nome)
+
+Exercício 8- Liste todos departamentos com seus 
+respectivos gerentes
+
+Exercício 7- Liste o nome, o nome do departamento 
+e a função de todos os funcionários
+
+Exercício 6- Liste o total da folha de pagamento
+
+Exercício 5- Liste os funcionários como uma 
+listagem telefônica
+
+Exercício 4- Liste a data de nascimento e o 
+primeiro nome dos funcionários 
+ordenados do mais novo para o mais 
+velho
+
+Exercício 3- Liste os funcionários que têm salário 
+superior a R$ 1.000,00 ordenados 
+pelo nome completo
+
+Exercício 2- Listar todos os campos de 
+funcionários ordenados por cidade
+
+Exercício 1- Listar nome e sobrenome ordenado 
+por sobrenome
+
+Esquemas
+
+Funcionarios (Codigo, PrimeiroNome, 
+SegundoNome, UltimoNome, 
+DataNasci, CPF, RG, Endereco, CEP, 
+Cidade, Fone, CodigoDepartamento, 
+Funcao, Salario)
+
+Departamentos (Codigo, Nome, 
+Localizacao, 
+CodigoFuncionarioGerente)
+
