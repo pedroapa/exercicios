@@ -33,3 +33,44 @@ select * from customers;
 /*Perguntando para o banco*/
 /*Para fazer isso você deve exibir a quantidade de cidades distintas da tabela clientes.*/
 select distinct count(*)  from customers;
+
+select count(*) from customers
+group by city
+having count(*) = '2';
+
+select * from customers;
+
+select count(city) from customers
+group by city
+having count(*);
+
+select count(city) from customers
+group by city
+having count(*);
+
+select distinct city from customers;
+
+select sum(city) from customers;
+
+select count(*), (select distinct city from customers) from customers;
+
+/*ver as cidades e quantas pessoas tem em cada*/
+
+/*quantas cidade tem quantidde menor que 2?*/
+select city from customers
+group by city
+having count(*) < 2;
+
+select city, count(*) from customers
+group by city;
+
+select count(city) from customers;
+
+select count(*) from customers;
+
+select count(state) from customers;
+
+
+
+
+
