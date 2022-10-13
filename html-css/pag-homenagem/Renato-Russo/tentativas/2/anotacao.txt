@@ -16,3 +16,8 @@ footer
 alinhar todos dentro, usar padding
 
 ver se usar lista na hora de falar da vida dele, depois eu posso remover as bolinhas
+
+primeiro voce vai dividindo os elementos macromente e depois vai diminuindo
+exemplo: primeiro voce define como vai ser a estrutura e depois voce diz o que é paragrafo ou o que é div, imagem etc.
+
+Primeiro defina o que do texto vai fazer parte do header, main e do footer. Depois continuei classificando
