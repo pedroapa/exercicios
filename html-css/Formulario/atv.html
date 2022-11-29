@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazendo Atividade do Curso HTML</title>
+</head>
+<body>
+    <h1>Formulário</h1> 
+    <form action="" method="post" id="cForm">
+        <fieldset> <legend>Dados pessoais</legend>
+            <p><label for="cNome">Nome: <input type="text" size="20" maxlength="40" placeholder="Digite o seu nome"></label></p>
+            <p><label for="cEnde">Endereço: <input type="text" size="20" maxlength="40" placeholder="Rua, Av., Trav., ..."></label></p>
+            <p><label for="cCid">Cidade <input type="text" size="20" maxlength="40" list="cidades"></label>
+            <datalist id="cidades">
+                <option value="São Paulo"></option>
+                <option value="Taubaté"></option>
+                <option value="Santos"></option>
+                <option value="Resende"></option>
+                <option value="São Jose dos Campos"></option>
+                <option value="Aparecida"></option>
+            </datalist>
+            </p>
+            <p><label for="cEst">Estado</label>
+            <select name="tEst" id="cEst">
+                <optgroup id="Região Sudeste">
+                    <option value="SP" >São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup id="Região Sul" >
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS" selected>Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+            </p>
+        </fieldset> <br>
+
+        <fieldset> <legend>Dados profissionais</legend>
+            Natureza do Cargo <br>
+            <input type="radio" id="cGer" name="tCarg"> <label for="cGer" >Gerência</label>   
+            <input type="radio" id="cFin" name="tCarg"> <label for="cFin">Financeiro</label>
+            <input type="radio" id="cRec" name="tCarg"> <label for="cRec">Recpção</label>
+            <input type="radio" id="cAdm" name="tCarg"> <label for="cAdm">Administraivo</label>
+            <input type="radio" id="cJur" name="tCarg"> <label for="cJur">Juridico</label>
+            <br> <br>
+            Área de interesse <br>
+            <input type="checkbox" id="cComp" name="tComp"> <label for="cComp">Computação</label>
+            <input type="checkbox" id="cBio" name="tBio"> <label for="cBio">Biologia</label>
+            <input type="checkbox" id="cM-amb" name="tM-amb"> <label for="cM-amb">Meio Ambiente</label>
+            <input type="checkbox" id="cEng" name="tEng"> <label for="cEng">Engenharia</label>
+            <input type="checkbox" id="cHis" name="tHis"> <label for="cHis">História</label>
+            <br> <br>
+            <label for="cMini-cur">Mini-Curriculo: <textarea name="tMini-cur" id="cMini-cur" cols="45" rows="5" placeholder="Digite um pouco do seu curriculo"></textarea></label>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpar">
+    </form>
+    
+</body>
+</html>
