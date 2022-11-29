@@ -1,0 +1,12 @@
+Revisão
+
+Quando vamos pegar um dado do formulario, pegamos o name do formulario e passamos ele pro php saber onde pegar
+
+o php não mexe com o id do input do formulario ne
+
+seria bom esse tempo eu voltar a estudar php enquanto eu fuço no site decom
+
+quero entender como funciona exatamente cada etapa, tanto no nivel do usuario, quanto no do sistema
+
+olhando quais mudanças vai acontecendo no sistema
+
