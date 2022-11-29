@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1>Formulário</h1> 
-    <form action="" method="post" id="cForm">
-        <fieldset> <legend>Dados pessoais</legend>
+    <form action="" method="post" id="fContato">
+        <fieldset id="usuario"> <legend>Dados pessoais</legend>
             <p><label for="cNome">Nome: <input type="text" size="20" maxlength="40" placeholder="Digite o seu nome"></label></p>
             <p><label for="cEnde">Endereço: <input type="text" size="20" maxlength="40" placeholder="Rua, Av., Trav., ..."></label></p>
             <p><label for="cCid">Cidade <input type="text" size="20" maxlength="40" list="cidades"></label>
@@ -38,7 +38,7 @@
             </p>
         </fieldset> <br>
 
-        <fieldset> <legend>Dados profissionais</legend>
+        <fieldset id="dados-prof"> <legend>Dados profissionais</legend>
             Natureza do Cargo <br>
             <input type="radio" id="cGer" name="tCarg"> <label for="cGer" >Gerência</label>   
             <input type="radio" id="cFin" name="tCarg"> <label for="cFin">Financeiro</label>
