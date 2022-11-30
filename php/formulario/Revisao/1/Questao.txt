@@ -1,0 +1,7 @@
+1) - Crie um algoritmo que receba um n�mero digitado pelo usu�rio e verifique se esse valor � positivo, negativo ou igual a zero. A sa�da deve ser: "Valor Positivo", "Valor Negativo" ou "Igual a Zero".
+
+Pra mim tava tudo certo com o código, mas falava que tinha problema nesta linha:
+
+$valor = isset($_GET("tValor"))?$_GET("tValor"):0;
+
+Mas não sabia qual era o erro, tentei encontrar sozinho, mas não consegui, comparando com outros códigos que ja fiz, o erro é que não é usado parentes quando utiliza a "função" $_GET, usa cochetes.
