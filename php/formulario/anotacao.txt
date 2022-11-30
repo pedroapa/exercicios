@@ -10,3 +10,44 @@ quero entender como funciona exatamente cada etapa, tanto no nivel do usuario, q
 
 olhando quais mudanças vai acontecendo no sistema
 
+No formulario o name vai para o php, mas quando usamos radio, os objetos tem o mesmo nome, então o que vai para o php? E como diferenciar o masculino do feminino
+
+O que vai ser enviado mandamos pelo value quando usamos radio e o php vai guardar isso na variavel
+
+obs usa o name, mas o php pega value
+Isso é bem inusitado, é normal pega o name de outros objetos do formulario para tratar pelo php, mas até dos objetos radio temos que pega pelo name, os objetos radio escolhido vai ter seu value lido. Lembrar de sempre usar value quando for tratar desse objeto em um formulario.
+
+
+na atividade a parte de configurar as caracteristica da fonte em uma pagina e mandar fazer, eu não sabia como ia ser a conversa do php com css, por isso não fiz esta interação
+
+
+$idade = date("Y") - $ano;
+
+a função date("Y") pega o valor do ano atual, usamos isso para não ter que ficar atualizando no código todo ano.
+
+no objeto select também devemos mandar o name  dele, e a opção que for selecionada, vai ser dela o value que vai ser mandado
+
+Ele usou na pagina php:
+
+ echo "<span class='texto'>$txt</span>";
+
+usou a tag span porque ele queria configurar o css de um texto, que esta guardada na variavel $txt.
+
+O css não pode configurar o $txt direto, mas da para configurar o ambiente onde este texto esta presente, que por isso também tem span, o css não consegue configurar o echo
+
+echo que conversa com o css
+
+Parte do CSS:
+span.texto {
+            font-size: <?php echo $tam;?>;
+            color: <?php echo $cor;?>;
+        }
+
+o Php atraves do echo consegue deixar algo no html ou no css, na hora da atribuição do valor do css, abrimos uma tag php e usando echo deixamos uma variavel la, que guarda um valor. Quando o html personalizado é gerado, os comandos php não aparecem, só fica o valor da variavel la
+
+Obs: tem a tag php, usa echo e depois tem o ponto e virgula para encerra o comando, depois a tag é fechada com ?>
+
+daora como é salvo a string que diz o valor e a unidade e depois o php consegue por isso no código html como se fosse apenas o valor. Somando com configurar o ambiente da onde vai ficar a variavel que permite o php manipular o css de uma pagina.
+
+
+
