@@ -49,5 +49,12 @@ Obs: tem a tag php, usa echo e depois tem o ponto e virgula para encerra o coman
 
 daora como é salvo a string que diz o valor e a unidade e depois o php consegue por isso no código html como se fosse apenas o valor. Somando com configurar o ambiente da onde vai ficar a variavel que permite o php manipular o css de uma pagina.
 
+Assim que fica quando se utiliza no echo as variaveis, o texto e operador unario:
+
+echo "Você nasceu em $ano_nascimento, tem $idade anos e sua situação sobre votar: " . (($votar == true)?"obrigatório": "não é obrigado") . " e sobre dirigir é " . (($dirigir == true)?"permitido":"não permitido");
+?>
+
+os pontos finais são usados para concatenar entre o operador unario e o texto normal
+
 
 
