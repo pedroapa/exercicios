@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    font: normal 18pt Arial;
+    background-color: rgb(158, 158, 212);
+}
+
+div {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
