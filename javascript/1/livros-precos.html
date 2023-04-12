@@ -5,40 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <script src="script.js"></script>
     <title>Atividade da Tabela de Livros</title>
 </head>
 <body>
     <table>
         <thead>
             <tr>
-                <th>Livro</th>
-                <th>Paginas</th>
+                <th onclick="mudaCorLiv()">Livro</th>
+                <th onclick="mudaCorPag()">Paginas</th>
             </tr> 
         </thead>
         <tbody>
             <tr>
-                <td>A Bússola de Ouro</td>
-                <td>365</td>
+                <td class="nomLivro" >A Bússola de Ouro</td>
+                <td class="qtdPagina">365</td>
             </tr>
             <tr>
-                <td>A faca Sutil</td>
-                <td>300</td>
+                <td class="nomLivro">A faca Sutil</td>
+                <td class="qtdPagina">300</td>
             </tr>
             <tr>
-                <td>A Luneira Âmbar</td>
-                <td>526</td>
+                <td class="nomLivro">A Luneira Âmbar</td>
+                <td class="qtdPagina">526</td>
             </tr>
             <tr>
-                <td>A Pedra Filosofal</td>
-                <td>266</td>
+                <td class="nomLivro">A Pedra Filosofal</td>
+                <td class="qtdPagina">266</td>
             </tr>
             <tr>
-                <td>A Câmara Secreta</td>
-                <td>252</td>
+                <td class="nomLivro">A Câmara Secreta</td>
+                <td class="qtdPagina">252</td>
             </tr>
             
         </tbody>
     </table>
+
+    <script src="script.js"></script>
 </body>
 </html>
