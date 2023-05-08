@@ -1,0 +1,7 @@
+		ATIVIDADE
+Então a atividade é, vai ter um select em uma pagina com todos os produtos, quando eu escolher um, vai parecer quantos tem ainda desse produto dinamicamente com AJAX.
+
+será que consegueria, criar uma pagina que cadastro uma informação e ela aparece na tela sem eu ter que recarregar a pagina
+
+podia fazer assim, eu escolheria um produto e no canto apareceria a quantidade do mesmo cadastrada no banco.
+
