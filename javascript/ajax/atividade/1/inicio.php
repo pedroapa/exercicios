@@ -17,6 +17,7 @@
     </header>
     <section>
         <div>
+            <p>Escolha um produto e saiba se ainda esta disponível</p>
             <p>
                 <label for="">Produto</label>
                 <select name="tSelProd" id="cSelProd">
@@ -30,10 +31,11 @@
                         }
                     ?>     
                 </select>
+                <input type="button" id="btnPesq" value="Pesquisar" onclick="pesquisar()">
             </p>
         </div>
         <div id="result">
-            Ola
+            
         </div>
 
     </section>
