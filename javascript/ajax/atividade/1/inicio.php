@@ -21,19 +21,18 @@
                 <label for="">Produto</label>
                 <select name="tSelProd" id="cSelProd">
                     <?php 
-                        $sql = "SELECT id, name FROM produtosimportados";
+                        $sql = "SELECT id, name FROM products";
                         $res = mysqli_query($conn, $sql);
                         while($linha = mysqli_fetch_array($res)){
-                            $vId = $linha[0]
-                            $vProduto = $linha[1]
-                            echo "<option id='$vId'>$Produto</option>"
+                            $vId = $linha[0];
+                            $vProduto = $linha[1];
+                            echo "<option id='$vId'>$Produto</option>";
                         }
-                    ?>
-                    
+                    ?>     
                 </select>
             </p>
         </div>
-        <div>
+        <div id="result">
             Ola
         </div>
 
