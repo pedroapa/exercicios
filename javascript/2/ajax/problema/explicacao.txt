@@ -1,0 +1,2 @@
+Pedei o código no you tube, quem gravou o video criou um exemplo simples. Quando fui testar na minha maquina, simplesmente não estava funcionando, pensei que podia ser algum erro no código, depois de analisar bastante e pesquisar outro video para aprender com exemplo real e ver se entrava o erro, quando eu descobri o problema sozinho, por não estar acessando o banco de dados, eu pensei que o arquivo php era algo bem simples e esqueci que ele roda em um servidor, mesmo que não acesse o banco, ele precisa do servidor.
+Quando usei meu servidor web local, ele funcionou normal.
