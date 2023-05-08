@@ -26,7 +26,7 @@
                         while($linha = mysqli_fetch_array($res)){
                             $vId = $linha[0];
                             $vProduto = $linha[1];
-                            echo "<option id='$vId'>$Produto</option>";
+                            echo "<option id='$vId'>$vProduto</option>";
                         }
                     ?>     
                 </select>
