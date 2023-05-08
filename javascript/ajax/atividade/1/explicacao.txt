@@ -7,3 +7,16 @@ podia fazer assim, eu escolheria um produto e no canto apareceria a quantidade d
 
 Mano preciso conseguir pegar o id do produto com JS e mandar ele pro php e criar um requisição no banco de dados, que
 retorne a quantidade do produto.
+
+		PROBLEMA GRANDE
+Agora fica a duvida, como eu vou saber qual produto o usario escolheu atraves do JS?
+preciso pegar isso para mandar como parametro pro php.
+Eu estou lembrando algo parecido que ja aconteceu com um input nos exercicios do curso JS do cursoEmvideo, era o 
+input radio, tinha que fazer um esquema para saber qual foi selecionado. Aqui em vez de usar a propriedade 'checked', 
+vou usar 'selected'. Talvez seja por ai, eu vou ter que usar um if e else para saber qual foi selecionado, o problema 
+é que são muito produtos.
+
+Se eu tentar por em uma variavel qual opção foi selecionada?
+
+
+
