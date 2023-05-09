@@ -5,6 +5,6 @@ function processa() {
     xhttp.onload = function() {
         document.getElementById("result").innerHTML = this.responseText;
     }
-    xhttp.open("GET", "processa.php?");
+    xhttp.open("GET", "pegaQtd.php?");
     xhttp.send();    
 }      
