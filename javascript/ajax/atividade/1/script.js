@@ -1,6 +1,6 @@
 //Criação dos objetos   
 let res = window.document.querySelector('div#result')
-let lista = window.document.querySelector('select#cSelProd')
+let itens = window.document.getElementsByTagName('option')
 
 function pesquisar(){
     //Parte responsavel por AJAX
@@ -11,12 +11,17 @@ function pesquisar(){
     }
 
     let idProd = 9
-    let tamanho = lista.length
+    let tamanho = itens.length
+    let i = 0
 
-    if(lista.selected === 1){
-        idProd = 1
+    while( i < tamanho ){
+        if(itens[i].selected){
+            idProd = Number(itens[i].id)
+        }
+        i++
     }
-    window.alert(`O tamano da lista ${idProd}`)
+
+    //window.alert(`O tamano da lista ${idProd}`)
 
     xhttp.open("GET", "pegaQtd.php?idProd="+idProd)
     xhttp.send()
