@@ -1,6 +1,7 @@
 <?php 
-include "conexao.php"
+//include "conexao.php";
 
-print "Estou dentro do arquivo pegaQtd"
+$resposta = "Estou dentro do arquivo pegaQtd";
+echo $resposta;
 
 ?>
