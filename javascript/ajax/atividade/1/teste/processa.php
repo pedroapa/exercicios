@@ -1,6 +1,6 @@
 <?php
 
-    $resposta = "Olha mundo";
+    $resposta = "Estou dentro do arquivo pegaQtd";
     print $resposta;
 
 ?>
