@@ -1,0 +1,1 @@
+Criar um exemplo de saida de data do banco. Mostrar como sai normal, depois formatado para brasileiro com mysql e por ultimo pelo php.
