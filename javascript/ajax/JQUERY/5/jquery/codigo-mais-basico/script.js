@@ -5,7 +5,7 @@ function testeAJAX(){
     $.ajax({
         method: "GET",
         url: "soma.php",
-        data: { val1: `${n1}`, val2: `${n2}` }
+        data: { val1: n1, val2: n2 }
     })
     .done( function(msg){
         $("#result").html(msg);
