@@ -3,5 +3,4 @@
     $vNum2 = isset($_GET["val2"])? $_GET["val2"]: 0;
 
     echo $vNum1 + $vNum2;
-
 ?>
