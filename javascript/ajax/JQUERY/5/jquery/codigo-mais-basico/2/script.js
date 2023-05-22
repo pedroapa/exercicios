@@ -7,7 +7,7 @@ function testeAJAX(){
     //"soma.php?val1=11&val2=8"
 
     $.get(`soma.php?val1=${n1}&val2=${n2}`, function(resultado){
-        $("#resut").html(resultado);
+        $("#result").html(resultado);
     })
     
 }
