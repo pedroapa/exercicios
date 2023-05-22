@@ -6,7 +6,7 @@ function buscaCep(){
     console.log(searc)
 
     //Usar o ajax com jquery
-    $.get("https://viacep.com.br/"+searc+"/json", function(resposta){
+    $.get("https://viacep.com.br/ws/"+searc+"/json/", function(resposta){
         console.log('Deu certo, voltei com resposta do servidor')
     })
 }
