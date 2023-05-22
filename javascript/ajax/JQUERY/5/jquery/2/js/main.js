@@ -7,8 +7,7 @@ function buscaCep(){
 
     $.ajax({
         method: "GET",
-        url: "https://viacep.com.br/json",
-        data: seacr
+        url: "https://viacep.com.br/"+searc+"/json", 
     })
     .done( function(resposta){
         console.log('Deu certo, voltei com resposta do servidor')
