@@ -1,0 +1,4 @@
+Pelo que entendi, estou com problema no CORS. Tenho que pedi liçensa para poder entrar no servidor, como não fiz isso, o servidor recusou. Eu vi um pouco disso quando estava tentando implementar o fetch.
+Da pra ver que esta dando erro, o servidor esta mandando a mensagem de erro.
+
+
