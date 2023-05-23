@@ -6,14 +6,13 @@ function buscaCep(){
     console.log(searc)
 
     //Usar o ajax com jquery
-    $.get("https://viacep.com.br/ws/"+searc+"/json/", 
-        function(resposta){
+    $.get("https://viacep.com.br/ws/"+searc+"/json/", function(resposta){
             //resposta.json()
-            var inf = jQuery.parseJSON(resposta)
+            var inf = JSON.parse(resposta)
             $("#logradouro").HTML(inf.logradouro)
     })
     .fail(function(jqXHR, textStatus, resposta){
-        alert('[EROOR] Houve um erro: ' + resposta)
+        //alert('[EROOR] Houve um erro: ' + resposta)
     })
 
 

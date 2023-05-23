@@ -7,6 +7,8 @@ $(document).on('click', "#btnEnviarDados", function () {
     // criando as variáveis
     var vUrl = "ajax.php";
     var vData = { nome:vNome, email:vEmail };
+
+    //"success"
    
     $.post(
      vUrl, //Required URL of the page on server
@@ -14,7 +16,7 @@ $(document).on('click', "#btnEnviarDados", function () {
      function(response,status)
      {
        // tratando o status de retorno. Sucesso significa que o envio e retorno foi executado com sucesso.
-       if(status == "success")
+       if(status == 200)
        {
           // pegando os dados jSON
           var obj = jQuery.parseJSON(response);
