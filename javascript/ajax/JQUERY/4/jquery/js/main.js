@@ -13,7 +13,5 @@ function buscaCep(){
     })
     .fail(function(jqXHR, textStatus, resposta){
         //alert('[EROOR] Houve um erro: ' + resposta)
-    })
-
-
+    }) 
 }
