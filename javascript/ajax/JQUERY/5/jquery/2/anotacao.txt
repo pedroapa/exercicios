@@ -1,0 +1,3 @@
+O problema de acontecer tanto erro é que eu não vi o basico de jquery e estou 
+tentando implamentar o ajax. Tipo não sei como faz para selecionar um elemento
+ e escrever no seu conteudo ou mudar o seu valor

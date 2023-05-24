@@ -7,9 +7,9 @@ function buscaCep(){
 
     //Usar o ajax com jquery
     $.get("https://viacep.com.br/ws/"+searc+"/json/", function(resposta){
-            //resposta.json()
-            var inf = JSON.parse(resposta)
-            $("#logradouro").HTML(inf.logradouro)
+            console.log(resposta.logradouro)
+            //var inf = JSON.parse(resposta)
+            $("#logradouro").val(resposta.logradouro)
     })
     .fail(function(jqXHR, textStatus, resposta){
         //alert('[EROOR] Houve um erro: ' + resposta)
