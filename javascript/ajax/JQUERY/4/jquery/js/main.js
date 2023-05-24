@@ -12,6 +12,6 @@ function buscaCep(){
             $("#estado").val(resposta.uf)
     })
     .fail(function(jqXHR, textStatus, resposta){
-        //alert('[EROOR] Houve um erro: ' + resposta)
+        alert('[EROOR] Houve um erro: ' + resposta)
     }) 
 }
